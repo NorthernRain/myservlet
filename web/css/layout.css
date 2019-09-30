@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+/*设置导航栏背景图片*/
+nav{
+    background-image: url("../images/th.jpg");
+}
+.row1{
+    /*设置内容过多时的省略号*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*设置显示的行数*/
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.row2{
+    /*设置内容过多时的省略号*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*设置显示的行数*/
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+#search_input{
+    width: 185px;
+
+}
